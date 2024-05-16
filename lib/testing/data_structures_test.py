@@ -35,7 +35,7 @@ class TestDataStructures:
     def test_get_spiciest_foods(self):
         '''contains function get_spiciest_foods() that returns foods with a heat_level over 5.'''
         for food in get_spiciest_foods(TestDataStructures.SPICY_FOODS):
-            assert(food["heat_level"]) > 5
+            assert(food["heat_level"] > 5)
     
     def test_print_spicy_foods(self):
         '''contains function print_spicy_foods that returns all foods formatted with 🌶  emojis.'''
